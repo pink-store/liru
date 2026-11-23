@@ -598,20 +598,7 @@
         packInputs[0].checked = true;
         updateSelectedPackUI();
       } catch (err) {
-    modalOrderDetails.innerHTML = `
-      <p><strong>الاسم:</strong> ${name}</p>
-      <p><strong>الهاتف:</strong> <span dir="ltr">${phone}</span></p>
-      <p><strong>المدينة:</strong> ${city}</p>
-      <p><strong>العرض:</strong> ${pack} — <strong class="text-pink-700">${price}</strong></p>
-    `;
-
-    successModal.classList.remove('hidden');
-    successModal.classList.add('flex');
-
-    form.reset();
-    packInputs[0].checked = true;
-    updateSelectedPackUI();
-  }
+        showError('وقع مشكل مؤقت في إرسال الطلب، عاودي المحاولة بعد قليل.');
       } finally {
         submitBtn.disabled = false;
         submitBtn.textContent = 'تأكيد الطلب';
