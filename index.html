@@ -605,7 +605,9 @@
       }
     });
 
-    closeModalBtn.addEventListener('click', function () {
+    closeModalBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
       successModal.classList.add('hidden');
       successModal.classList.remove('flex');
     });
