@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Pink Store — كريم Liru لشد وتكبير الصدر</title>
+
+  <!-- الخطوط العربية -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Meta Pixel Code (ID: 1391239479524311) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1391239479524311');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1391239479524311&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Cairo', 'Tajawal', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#fdf2f8',
+              100: '#fce7f3',
+              200: '#fbcfe8',
+              500: '#ec4899',
+              600: '#db2777',
+              700: '#be185d',
+              900: '#831843',
+              950: '#500724',
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    body {
+      font-family: 'Cairo', 'Tajawal', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-gray-800 antialiased selection:bg-pink-200 selection:text-pink-950">
+
+  <!-- إطار التطبيق المخصص للهاتف (480px) -->
+  <div class="relative mx-auto min-h-screen w-full max-w-[480px] bg-white shadow-2xl pb-24">
+
+    <!-- شريط علوي للتوصيل المجاني -->
+    <div class="bg-pink-950 px-3 py-2 text-center text-[11px] font-bold text-pink-100">
+      🚚 توصيل مجاني لجميع المدن المغربية • الدفع عند الاستلام • تغليف سري 100%
+    </div>
+
+    <!-- الهيدر (Header) -->
+    <header class="sticky top-0 z-30 flex items-center justify-between border-b border-pink-100 bg-white/95 px-4 py-2.5 backdrop-blur">
+      <div class="flex items-center gap-2.5">
+        <div class="h-11 w-11 shrink-0 overflow-hidden rounded-full border-2 border-pink-200 bg-white p-0.5 shadow-xs">
+          <img
+            src="logo.jpg"
+            alt="Pink Store"
+            class="h-full w-full rounded-full object-contain"
+            onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+          />
+          <div class="hidden h-full w-full items-center justify-center rounded-full bg-pink-600 text-base font-extrabold text-white">
+            P
+          </div>
+        </div>
+        <div>
+          <p class="text-sm font-extrabold leading-tight text-pink-950">Pink Store</p>
+          <p class="text-[11px] font-semibold text-pink-600">جمالك أولويتنا</p>
+        </div>
+      </div>
+
+      <a
+        href="#order-form"
+        class="shrink-0 rounded-full bg-gradient-to-l from-pink-600 to-rose-500 px-3.5 py-2 text-xs font-extrabold text-white shadow-md shadow-pink-500/25 transition active:scale-95"
+      >
+        اطلبي الآن
+      </a>
+    </header>
+
+    <!-- قسم البداية (Hero Section) -->
+    <section class="bg-gradient-to-b from-pink-100/80 via-pink-50/40 to-white px-4 pt-5 pb-6">
+      <h1 class="mt-1 text-2xl font-black leading-[1.35] text-pink-950">
+        استرجعي أنوثتك وثقتك مع كريم <span class="text-pink-600">Liru</span> لشد الصدر
+      </h1>
+
+      <p class="mt-2.5 text-xs leading-relaxed text-gray-600">
+        تركيبة غنية بالكولاجين، فيتامين E والإيلاستين (150ml) تساعد على تحسين مرونة البشرة وإبراز مظهر أكثر امتلاءً وتناسقاً بشكل طبيعي ومريح.
+      </p>
+
+      <!-- صورة المنتج -->
+      <div class="mt-4 overflow-hidden rounded-2xl border border-pink-200/80 bg-white p-3 shadow-xs">
+        <img
+          src="liru.jpg"
+          alt="Liru Professional Care Breast Firming Cream 150ml"
+          class="mx-auto max-h-72 w-auto rounded-xl object-contain"
+          onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+        />
+        <div class="hidden rounded-xl bg-gradient-to-b from-pink-50 to-white p-6 text-center border border-pink-100">
+          <p class="text-sm font-extrabold text-pink-950">Liru Professional Care — Breast Firming Cream (150ml)</p>
+          <p class="mt-1 text-xs text-pink-600">ضعي صورة المنتج باسم liru.jpg بجانب ملف الصفحة لتظهر هنا</p>
+        </div>
+      </div>
+
+      <!-- بطاقة العرض الافتراضي (عبوة واحدة) -->
+      <div class="mt-4 flex items-center justify-between rounded-2xl border border-pink-100 bg-white px-4 py-3 shadow-xs">
+        <div>
+          <span class="block text-[11px] font-semibold text-gray-500">عرض عبوة واحدة (150ml)</span>
+          <div class="mt-0.5 flex items-baseline gap-2">
+            <span class="text-xl font-black text-pink-700">149 درهم</span>
+            <span class="text-xs font-semibold text-gray-400 line-through">199 درهم</span>
+          </div>
+        </div>
+        <span class="rounded-full bg-pink-100 px-3 py-1 text-[11px] font-extrabold text-pink-700">
+          وفري 50 درهم
+        </span>
+      </div>
+
+      <a
+        href="#order-form"
+        class="mt-3 flex min-h-[52px] w-full items-center justify-center rounded-2xl bg-gradient-to-l from-pink-600 via-pink-500 to-rose-500 px-5 py-3 text-sm font-extrabold text-white shadow-lg shadow-pink-600/25 transition active:scale-[0.99]"
+      >
+        أكملي طلبك الآن
+      </a>
+    </section>
+
+    <!-- المزايا، المكونات وطريقة الاستعمال -->
+    <section class="space-y-4 px-4 py-5">
+      <div class="rounded-2xl border border-pink-100 bg-pink-50/50 p-4">
+        <h2 class="text-base font-extrabold text-pink-950">علاش كيجربوه بزاف ديال السيدات؟</h2>
+        <ul class="mt-3 space-y-2.5 text-xs font-medium text-gray-700">
+          <li class="flex items-start gap-2">
+            <span class="mt-0.5 font-black text-pink-600">✓</span>
+            <span>يساعد على شد البشرة وتحسين مرونتها مع الاستعمال المنتظم.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="mt-0.5 font-black text-pink-600">✓</span>
+            <span>قوام كريمي سريع الامتصاص بدون أثر دهني مزعج.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="mt-0.5 font-black text-pink-600">✓</span>
+            <span>مناسب للاستعمال اليومي مع مساج خفيف.</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- المكونات النشطة -->
+      <div class="grid grid-cols-3 gap-2 text-center">
+        <div class="rounded-xl border border-pink-100 bg-white p-3 shadow-2xs">
+          <p class="text-xs font-extrabold text-pink-700">Collagen</p>
+          <p class="mt-0.5 text-[11px] text-gray-600">مرونة الجلد</p>
+        </div>
+        <div class="rounded-xl border border-pink-100 bg-white p-3 shadow-2xs">
+          <p class="text-xs font-extrabold text-pink-700">Vitamin E</p>
+          <p class="mt-0.5 text-[11px] text-gray-600">تغذية وترطيب</p>
+        </div>
+        <div class="rounded-xl border border-pink-100 bg-white p-3 shadow-2xs">
+          <p class="text-xs font-extrabold text-pink-700">Elastin</p>
+          <p class="mt-0.5 text-[11px] text-gray-600">ملمس مشدود</p>
+        </div>
+      </div>
+
+      <!-- طريقة الاستعمال -->
+      <div class="rounded-2xl border border-gray-200/80 bg-white p-4">
+        <h3 class="text-sm font-extrabold text-pink-950">طريقة الاستعمال</h3>
+        <p class="mt-1.5 text-xs leading-relaxed text-gray-600">
+          توضع كمية مناسبة مرتين في اليوم (صباحاً ومساءً) مع تدليك دائري لطيف من الأسفل نحو الأعلى لمدة 3 إلى 5 دقائق حتى تمتصه البشرة بالكامل.
+        </p>
+      </div>
+    </section>
+
+    <!-- استمارة الطلب (COD Form) -->
+    <section id="order-form" class="border-t border-pink-100 bg-gradient-to-b from-pink-50/80 to-white px-4 py-6">
+      <div class="text-center">
+        <span class="inline-block rounded-full bg-pink-100 px-3 py-1 text-[11px] font-extrabold text-pink-700">
+          طلب سريع • الدفع عند الاستلام
+        </span>
+        <h2 class="mt-2 text-xl font-black text-pink-950">عمري معلوماتك باش توصلك</h2>
+        <p class="mt-1 text-xs text-gray-500">غادي نتواصلو معاك هاتفياً لتأكيد الطلب قبل الإرسال</p>
+      </div>
+
+      <form id="codForm" class="mt-5 space-y-4" novalidate>
+        <!-- اختيار الباك (العبوة الواحدة افتراضياً) -->
+        <div class="space-y-2.5">
+          <label class="block text-xs font-extrabold text-pink-950">اختاري العرض المناسب:</label>
+
+          <!-- Pack 1: افتراضي -->
+          <label class="pack-option flex cursor-pointer items-center justify-between rounded-2xl border-2 border-pink-600 bg-pink-50/70 p-3.5 transition">
+            <div class="flex items-center gap-3">
+              <input
+                type="radio"
+                name="pack"
+                value="عبوة واحدة (150ml)"
+                data-price="149 درهم"
+                checked
+                class="h-4 w-4 accent-pink-600"
+              />
+              <div>
+                <p class="text-xs font-extrabold text-gray-900">عبوة واحدة (150ml)</p>
+                <span class="mt-0.5 inline-block rounded-md bg-pink-100 px-2 py-0.5 text-[10px] font-bold text-pink-700">
+                  وفري 50 درهم + توصيل مجاني
+                </span>
+              </div>
+            </div>
+            <div class="text-left">
+              <span class="block text-[11px] text-gray-400 line-through">199 درهم</span>
+              <span class="text-base font-black text-pink-700">149 درهم</span>
+            </div>
+          </label>
+
+          <!-- Pack 2 -->
+          <label class="pack-option flex cursor-pointer items-center justify-between rounded-2xl border border-gray-200 bg-white p-3.5 transition">
+            <div class="flex items-center gap-3">
+              <input
+                type="radio"
+                name="pack"
+                value="عبوتين (2x 150ml)"
+                data-price="199 درهم"
+                class="h-4 w-4 accent-pink-600"
+              />
+              <div>
+                <p class="text-xs font-extrabold text-gray-900">عبوتين (2x 150ml)</p>
+                <span class="mt-0.5 inline-block rounded-md bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-800">
+                  الأكثر طلباً + توصيل مجاني
+                </span>
+              </div>
+            </div>
+            <div class="text-left">
+              <span class="block text-[11px] text-gray-400 line-through">298 درهم</span>
+              <span class="text-base font-black text-pink-700">199 درهم</span>
+            </div>
+          </label>
+
+          <!-- Pack 3 -->
+          <label class="pack-option flex cursor-pointer items-center justify-between rounded-2xl border border-gray-200 bg-white p-3.5 transition">
+            <div class="flex items-center gap-3">
+              <input
+                type="radio"
+                name="pack"
+                value="3 عبوات (3x 150ml)"
+                data-price="249 درهم"
+                class="h-4 w-4 accent-pink-600"
+              />
+              <div>
+                <p class="text-xs font-extrabold text-gray-900">3 عبوات (3x 150ml)</p>
+                <span class="mt-0.5 inline-block rounded-md bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-800">
+                  أقصى توفير + توصيل مجاني
+                </span>
+              </div>
+            </div>
+            <div class="text-left">
+              <span class="block text-[11px] text-gray-400 line-through">447 درهم</span>
+              <span class="text-base font-black text-pink-700">249 درهم</span>
+            </div>
+          </label>
+        </div>
+
+        <!-- معلومات التوصيل (الاسم، الهاتف، المدينة كتابة حرة فقط) -->
+        <div class="space-y-3 pt-1">
+          <div>
+            <label for="customerName" class="mb-1 block text-xs font-bold text-gray-800">الاسم</label>
+            <input
+              id="customerName"
+              name="Name"
+              type="text"
+              required
+              placeholder="مثال: سلمى المنصوري"
+              class="min-h-[52px] w-full rounded-xl border border-gray-300 bg-white px-4 text-sm text-gray-900 placeholder-gray-400 focus:border-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500/20"
+            />
+          </div>
+
+          <div>
+            <label for="customerPhone" class="mb-1 block text-xs font-bold text-gray-800">رقم الهاتف</label>
+            <input
+              id="customerPhone"
+              name="Phone"
+              type="tel"
+              inputmode="tel"
+              dir="ltr"
+              required
+              placeholder="06XXXXXXXX"
+              class="min-h-[52px] w-full rounded-xl border border-gray-300 bg-white px-4 text-left text-sm font-bold text-gray-900 placeholder-gray-400 focus:border-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500/20"
+            />
+          </div>
+
+          <div>
+            <label for="customerCity" class="mb-1 block text-xs font-bold text-gray-800">المدينة</label>
+            <input
+              id="customerCity"
+              name="City"
+              type="text"
+              required
+              placeholder="مثال: الدار البيضاء، ..."
+              class="min-h-[52px] w-full rounded-xl border border-gray-300 bg-white px-4 text-sm text-gray-900 placeholder-gray-400 focus:border-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500/20"
+            />
+          </div>
+        </div>
+
+        <!-- رسالة خطأ -->
+        <p id="formError" class="hidden rounded-xl border border-red-200 bg-red-50 px-3 py-2.5 text-center text-xs font-bold text-red-600"></p>
+
+        <!-- ملخص الطلب -->
+        <div class="rounded-2xl border border-pink-200/80 bg-pink-50/60 p-3.5 text-xs">
+          <div class="flex items-center justify-between text-gray-700">
+            <span>العرض المختار:</span>
+            <span id="summaryPack" class="font-extrabold text-pink-950">عبوة واحدة (150ml)</span>
+          </div>
+          <div class="mt-1.5 flex items-center justify-between text-gray-700">
+            <span>التوصيل:</span>
+            <span class="font-bold text-emerald-700">مجاني (0 درهم)</span>
+          </div>
+          <div class="mt-2 flex items-center justify-between border-t border-pink-200 pt-2 text-sm font-black text-pink-700">
+            <span>المجموع للدفع عند الاستلام:</span>
+            <span id="summaryPrice">149 درهم</span>
+          </div>
+        </div>
+
+        <!-- زر تأكيد الطلب -->
+        <button
+          id="submitBtn"
+          type="submit"
+          class="flex min-h-[54px] w-full cursor-pointer items-center justify-center rounded-2xl bg-gradient-to-l from-pink-600 via-pink-500 to-rose-500 px-5 py-3.5 text-base font-extrabold text-white shadow-lg shadow-pink-600/30 transition active:scale-[0.99] disabled:opacity-60"
+        >
+          تأكيد الطلب الآن
+        </button>
+      </form>
+    </section>
+
+    <!-- الأسئلة الشائعة (FAQ) -->
+    <section class="border-t border-gray-100 bg-white px-4 py-6">
+      <h2 class="mb-3 text-base font-extrabold text-pink-950">أسئلة شائعة</h2>
+      <div class="space-y-2.5 text-xs">
+        <details class="rounded-xl border border-gray-200 bg-gray-50/60 p-3.5">
+          <summary class="cursor-pointer font-extrabold text-gray-900">كيفاش كيتم الدفع والتوصيل؟</summary>
+          <p class="mt-2 leading-relaxed text-gray-600">
+            التوصيل مجاني لجميع المدن المغربية، وكتخلصي نقداً (الدفع عند الاستلام) ملي كيوصل الطرد حتى لعندك.
+          </p>
+        </details>
+        <details class="rounded-xl border border-gray-200 bg-gray-50/60 p-3.5">
+          <summary class="cursor-pointer font-extrabold text-gray-900">واش التغليف كيكون سري؟</summary>
+          <p class="mt-2 leading-relaxed text-gray-600">
+            نعم 100%، الطرد كيوصل مغلف بعناية وخصوصية تامة باش ترتاحي فـ الاستلام.
+          </p>
+        </details>
+        <details class="rounded-xl border border-gray-200 bg-gray-50/60 p-3.5">
+          <summary class="cursor-pointer font-extrabold text-gray-900">شحال كياخد التوصيل؟</summary>
+          <p class="mt-2 leading-relaxed text-gray-600">
+            غالباً كيوصل الطلب ما بين 24 و72 ساعة حسب المدينة من بعد تأكيد الطلب عبر الهاتف.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- الفوتر الوردي الفاتح -->
+    <footer class="border-t border-pink-100 bg-gradient-to-b from-white to-pink-50/90 px-5 pt-8 pb-8 text-center">
+      <div class="flex flex-col items-center justify-center gap-2.5">
+        <div class="h-14 w-14 overflow-hidden rounded-full border-2 border-pink-200 bg-white p-1 shadow-xs">
+          <img
+            src="logo.jpg"
+            alt="Pink Store"
+            class="h-full w-full rounded-full object-contain"
+            onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');"
+          />
+          <div class="hidden h-full w-full items-center justify-center rounded-full bg-pink-600 text-base font-extrabold text-white">
+            P
+          </div>
+        </div>
+        <div>
+          <h3 class="text-lg font-extrabold tracking-tight text-pink-950">Pink Store</h3>
+          <p class="text-xs font-semibold text-pink-600">جمالك أولويتنا</p>
+        </div>
+      </div>
+
+      <div class="mt-5 flex flex-wrap items-center justify-center gap-2 text-[11px] font-semibold text-gray-600">
+        <span class="rounded-full border border-pink-100 bg-white px-3 py-1.5 shadow-2xs">🚚 توصيل مجاني</span>
+        <span class="rounded-full border border-pink-100 bg-white px-3 py-1.5 shadow-2xs">💵 الدفع عند الاستلام</span>
+        <span class="rounded-full border border-pink-100 bg-white px-3 py-1.5 shadow-2xs">🔒 تغليف سري 100%</span>
+      </div>
+
+      <div class="mt-6 border-t border-pink-200/60 pt-4 text-[11px] text-gray-500">
+        <p>فريق Pink Store يتواصل معكم لتأكيد الطلبات يومياً</p>
+        <p class="mt-1 font-medium text-pink-900/70">© 2026 Pink Store — جميع الحقوق محفوظة</p>
+      </div>
+    </footer>
+
+    <!-- شريط سفلي ثابت للهاتف -->
+    <div id="stickyBar" class="fixed bottom-0 left-1/2 z-30 flex w-full max-w-[480px] -translate-x-1/2 items-center justify-between border-t border-pink-100 bg-white/95 px-4 py-2.5 shadow-[0_-6px_20px_rgba(0,0,0,0.08)] backdrop-blur transition-opacity duration-200">
+      <div>
+        <span id="stickyPackName" class="block text-[10px] font-bold text-gray-500">عبوة واحدة (150ml)</span>
+        <div class="flex items-baseline gap-1.5">
+          <span id="stickyPrice" class="text-base font-black text-pink-700">149 درهم</span>
+          <span id="stickyCompare" class="text-[11px] text-gray-400 line-through">199 درهم</span>
+        </div>
+      </div>
+      <a
+        href="#order-form"
+        class="rounded-xl bg-gradient-to-l from-pink-600 to-rose-500 px-4 py-2.5 text-xs font-extrabold text-white shadow-md shadow-pink-600/25 transition active:scale-95"
+      >
+        أطلبي الآن
+      </a>
+    </div>
+
+    <!-- نافذة تأكيد الطلب -->
+    <div id="successModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 p-4 backdrop-blur-xs">
+      <div class="w-full max-w-sm rounded-3xl bg-white p-6 text-center shadow-2xl">
+        <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-emerald-100 text-2xl font-black text-emerald-600">
+          ✓
+        </div>
+        <h3 class="mt-4 text-lg font-black text-pink-950">تم تسجيل طلبك بنجاح!</h3>
+        <p class="mt-1.5 text-xs leading-relaxed text-gray-600">
+          شكراً لثقتك في <strong class="text-pink-700">Pink Store</strong>. غادي يتصل بك فريقنا قريباً لتأكيد الطلب.
+        </p>
+
+        <div id="modalOrderDetails" class="mt-4 space-y-1 rounded-2xl bg-pink-50 p-3.5 text-right text-xs text-gray-700"></div>
+
+        <button
+          id="closeModalBtn"
+          type="button"
+          class="mt-5 min-h-[48px] w-full cursor-pointer rounded-xl bg-pink-600 px-4 py-2.5 text-xs font-extrabold text-white transition hover:bg-pink-700"
+        >
+          حسناً
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzoqU6mbV-UzE2y62ooiyyZ4hy-o6WlEbMpXbRPjORb0oNt0tljSsJb3piVpnKoX_UfrQ/exec';
+
+    const form = document.getElementById('codForm');
+    const packInputs = Array.from(document.querySelectorAll('input[name="pack"]'));
+    const packLabels = Array.from(document.querySelectorAll('.pack-option'));
+    const summaryPack = document.getElementById('summaryPack');
+    const summaryPrice = document.getElementById('summaryPrice');
+    const stickyPackName = document.getElementById('stickyPackName');
+    const stickyPrice = document.getElementById('stickyPrice');
+    const stickyCompare = document.getElementById('stickyCompare');
+    const stickyBar = document.getElementById('stickyBar');
+    const orderSection = document.getElementById('order-form');
+    const formError = document.getElementById('formError');
+    const submitBtn = document.getElementById('submitBtn');
+    const successModal = document.getElementById('successModal');
+    const modalOrderDetails = document.getElementById('modalOrderDetails');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    const compareMap = {
+      '149 درهم': '199 درهم',
+      '199 درهم': '298 درهم',
+      '249 درهم': '447 درهم'
+    };
+
+    function updateSelectedPackUI() {
+      const selected = packInputs.find(input => input.checked) || packInputs[0];
+      const packName = selected.value;
+      const priceText = selected.dataset.price;
+
+      packLabels.forEach(label => {
+        const radio = label.querySelector('input[type="radio"]');
+        if (radio.checked) {
+          label.classList.remove('border', 'border-gray-200', 'bg-white');
+          label.classList.add('border-2', 'border-pink-600', 'bg-pink-50/70');
+        } else {
+          label.classList.remove('border-2', 'border-pink-600', 'bg-pink-50/70');
+          label.classList.add('border', 'border-gray-200', 'bg-white');
+        }
+      });
+
+      summaryPack.textContent = packName;
+      summaryPrice.textContent = priceText;
+      stickyPackName.textContent = packName;
+      stickyPrice.textContent = priceText;
+      stickyCompare.textContent = compareMap[priceText] || '';
+    }
+
+    packInputs.forEach(input => {
+      input.addEventListener('change', updateSelectedPackUI);
+    });
+
+    if ('IntersectionObserver' in window && stickyBar && orderSection) {
+      const observer = new IntersectionObserver(
+        entries => {
+          entries.forEach(entry => {
+            stickyBar.style.opacity = entry.isIntersecting ? '0' : '1';
+            stickyBar.style.pointerEvents = entry.isIntersecting ? 'none' : 'auto';
+          });
+        },
+        { threshold: 0.25 }
+      );
+      observer.observe(orderSection);
+    }
+
+    function isValidMoroccanPhone(phone) {
+      const cleaned = phone.replace(/[\s\-().+]/g, '');
+      return /^(0[567]\d{8}|212[567]\d{8})$/.test(cleaned);
+    }
+
+    function showError(message) {
+      formError.textContent = message;
+      formError.classList.remove('hidden');
+    }
+
+    function hideError() {
+      formError.textContent = '';
+      formError.classList.add('hidden');
+    }
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      hideError();
+
+      const name = document.getElementById('customerName').value.trim();
+      const phone = document.getElementById('customerPhone').value.trim();
+      const city = document.getElementById('customerCity').value.trim();
+      const selectedPack = packInputs.find(input => input.checked) || packInputs[0];
+      const pack = selectedPack.value;
+      const price = selectedPack.dataset.price;
+
+      if (name.length < 2) {
+        showError('عفاك اكتبي الاسم الكامل بشكل صحيح.');
+        return;
+      }
+
+      if (!isValidMoroccanPhone(phone)) {
+        showError('عفاك دخلي رقم هاتف مغربي صحيح (مثال: 0612345678).');
+        return;
+      }
+
+      if (city.length < 2) {
+        showError('عفاك اكتبي اسم المدينة.');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'جاري إرسال الطلب...';
+
+      const payload = new URLSearchParams({
+        Name: name,
+        Phone: phone,
+        City: city,
+        Pack: pack,
+        Price: price
+      });
+
+      try {
+        await fetch(GOOGLE_SCRIPT_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+          body: payload.toString()
+        });
+
+        // إطلاق حدث الشراء (Purchase) لميتا بكسل بالقيمة الرقمية والعملة MAD
+        const numericPrice = parseFloat(String(price).replace(/[^\d.]/g, '')) || 149;
+        if (typeof fbq === 'function') {
+          fbq('track', 'Purchase', {
+            value: numericPrice,
+            currency: 'MAD',
+            content_name: pack,
+            content_type: 'product'
+          });
+        }
+
+        modalOrderDetails.innerHTML = `
+          <p><strong>الاسم:</strong> ${name}</p>
+          <p><strong>الهاتف:</strong> <span dir="ltr">${phone}</span></p>
+          <p><strong>المدينة:</strong> ${city}</p>
+          <p><strong>العرض:</strong> ${pack} — <strong class="text-pink-700">${price}</strong></p>
+        `;
+
+        successModal.classList.remove('hidden');
+        successModal.classList.add('flex');
+
+        form.reset();
+        packInputs[0].checked = true;
+        updateSelectedPackUI();
+      } catch (err) {
+        showError('وقع مشكل مؤقت في إرسال الطلب، عاودي المحاولة بعد قليل.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'تأكيد الطلب الآن';
+      }
+    });
+
+    closeModalBtn.addEventListener('click', function () {
+      successModal.classList.add('hidden');
+      successModal.classList.remove('flex');
+    });
+
+    updateSelectedPackUI();
+  </script>
+</body>
+</html>
